@@ -1,0 +1,101 @@
+<!-- REPASO BOOTSTRAP (SEMANA 7) EXITO EUGENE-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP REP1</title>
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Bootstrap plantillas -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+</head>
+
+<body>
+<center> <header>
+    <h1 class="jumbotrom text-center">SUPER T</h1>
+    <h2>MOMENTOS DEPORTIVOS</h2>
+    <br><br>
+
+    <!-- VOLVER PAGINA PRINCIPAL -->
+    <a href="../INDEX.html"><button type="button" class="btn btn-success">IR PAGINA INICIO</button></a>
+    <br><br>
+    
+         </header>
+</center>
+
+<div class="container">
+ <div id="miCarrusel" class="carousel slide" data-ride="carousel">
+    <!-- The Carousel Plugin :a component for cycling through elements, like a carousel (slideshow).-->
+    <!--indicadores  -->
+    <ol class="carousel-indicators">
+        <!-- al hacer 4 li se habilito 4 imagenes de carrusel -->
+        <li data-target="#miCarrusel" data-slide-to="0" class="active"></li>
+        <li data-target="#miCarrusel" data-slide-to="1"></li>
+        <li data-target="#miCarrusel" data-slide-to="2"></li>
+        <li data-target="#miCarrusel" data-slide-to="3"></li>
+    </ol>
+
+  <div class="carousel-inner">
+      <!-- carrusel imagen 1 -->
+      <div class="item active">
+        <img src="../imagenes proyecto final/eugene tenis.jpg" alt="" style="width:50% ;">
+        <div class="carousel-caption">
+         <h3>EL CEO DE LA EMPRESA</h3>
+         <P>Me gusta mucho el tenis</P>
+        </div>
+      </div>
+    
+      <!-- carrusel imagen 2 -->
+      <div class="item">
+        <img src="../imagenes proyecto final/eu.png" alt="" style="width:50% ;">
+          <div class="carousel-caption">
+            <H3>EN TIERRA CALIENTE TAMBIEN ENTRENO</H3>
+            <p>Dia a dia mejorar</p>
+          </div>
+      </div>
+
+      <!-- carrusel imagen 3 -->
+      <div class="item">
+        <img src="../imagenes proyecto final/big 3.jpg" alt="" style="width:50% ;">
+          <div class="carousel-caption">
+           <H3>TENISTAS RECONOCIDOS</H3>
+            <p>EL big 3. Los tres tenistas mas importantes de la era abierta</p>
+          </div>
+      </div>
+      <!-- carrusel imagen 4 -->
+      <div class="item">
+        <img src="../imagenes proyecto final/maria camila.jpg" alt="" style="width:50% ;">
+          <div class="carousel-caption">
+           <h3>LAS MUJERES JUEGAN</h3>
+           <p>Maria Camila Osorio , tenista N° 1 de Colombia</p>
+          </div>
+      </div> <!-- fin de imagenes de carrusel -->
+  </div><!-- div. final "carrusel inner" -->
+  
+  
+  <!-- inicio. previous and next -->
+    <a class="left carousel-control" href="#miCarrusel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span>Previous</span>
+      </a>
+      <a class="right carousel-control" href="#miCarrusel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span>Next</span>
+      </a>
+  <!-- final. previos and next -->
+
+ </div> <!--div. final "mi carrusel" -->
+</div> <!--div. final "container"-->
+
+<!-- script java -->
+<script src="../java proyecto final/JAVA BOOTSTRAP SLIDER.js"></script>
+
+<!-- scrip de bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+</body>
+</html>
+<!-- 

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PRINCIPAL T</title>
+   <!-- creación y definición de un favicon -->
+   <link rel="shortcut icon" href="img/HTML5.png" type="image/x-icon">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+ <!-- CSS -->
+ <link rel="stylesheet" href="./css proyecto final/ESTILOS PRINCIPAL TENIS.css"> 
+
+</head>
+<body>
+<div id="grid-container">
+<!-- SECCION CABECERA  -->
+ <header id="header">
+     <img src="./imagenes proyecto final/SuperT.png" width="150" height="150" alt="super t">
+     <h1> TIENDA DE ARTICULOS DE TENIS </h1><br>
+     
+</header>
+<!----se anula esta linea de la versión anterior: <div class="openmenu"><i class="fas fa-bars"></i></div> --------->
+<!-- SECCION MENU NAVEGACIÓN -->
+<nav id="menu">
+   <!-- Seccion de icono de hamburguesa para abrir sidebar menu -->
+   <button id="openmenu" onclick="openMenu()"><i class="fas fa-bars"></i></button><!-- cambio-->
+   <ul class="mainmenu" id="mainMenu"><!-- cambio-->
+   <!-- seccion de icono cerrar para sidebar menu -->
+   <a href="javascript:void(0)" id="closemenu" onclick="closeNav()">&times;</a><!-- cambio-->
+   <!-- OJO: SE ENLAZAN CADA UNA DE LAS OPCIONES DE LISTAS A LAS PAGINAS WEB RESPECTIVAS: tienda celulares, nomina, ingreso, formulario de registro -->
+   <i class="fas fa-home"></i><li><a href="./PRINCIPAL SUPER T.html">INICIO</a></li>
+   <i class="fas fa-cart-arrow-down"></i><li><a href="./html proyecto final/TIENDA T.html">TIENDA DE COMPRAS</a></li>
+   <i class="fas fa-charging-station"></i><li><a href="./html proyecto final/REGISTRO T.html">REGISTRATE COMO SUPER T</a></li>
+   
+   </ul>
+<!-- SECCION BUSCADOR -->
+<div class="buscarbox">
+<i class="fas fa-search"></i><input type="text" placeholder="Buscar aquí...">
+</div>
+<!-- seccion registro usuario -->
+<div id="reguser">
+   <i class="fas fa-user"></i><a href="./html proyecto final/INGRESO TENIS.html">CLIENTE PREMIUM</a>
+</div>
+</nav>
+<!-- SECCION CONTENIDO -->
+
+<center>  
+<section id="main">
+ <figure>
+   <img src="./imagenes proyecto final/atp.png" width="100" height="100" alt="html5">
+   <img src="./imagenes proyecto final/tenis.jpg" width="100" height="100" alt="css3">
+   <img src="./imagenes proyecto final/wta.png" width="100" height="100"  alt=""> 
+   <br>
+   
+</figure>
+<!-- SOBRE LA EMPRESA -->
+
+<!-- VOLVER PAGINA PRINCIPAL -->
+<a href="./html proyecto final/SLIDERS TENIS.html"><button type="button" class="btn btn-success">VER SLIDERS DE NUESTROS MOMENTOS</button></a>
+<br><br>
+
+      <article class="programa">
+      <h1>COMPROMISO</h1>
+      <img src="./imagenes proyecto final/inicio 1.jpg" width="100"  height="100" alt="sistemas">
+      </article>
+      
+      <article class="programa">
+      <h1>SERVICIO</h1>
+      <img src="./imagenes proyecto final/inicio 2.jpg" width="100"  height="100" alt="sistemas">
+      </article>
+      
+      <article class="programa">
+      <h1>CALIDAD</h1>
+      <img src="./imagenes proyecto final/inicio 3.png" width="100"  height="100" alt="sistemas">
+      </article>
+   <br>
+<img src="./imagenes proyecto final/premio tenis.png" alt="" width="300" height="300">
+
+      
+</section>
+</center>
+<!-- seccion barra lateral -->
+<aside id="sidebar">
+<h1>SUPER VIDEOS T GUSTARAN</h1>
+<br><br>
+<h1>VER A EUGENIO ENTRENANDO</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NBEgpFuxDHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h1>PARTIDO DE TENIS</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wh_F7xfVbtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<br><br>
+</aside>
+<!-- seccion pie de pagina -->
+<footer id="footer">
+<div id="redes">
+<a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+<a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+<a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+<a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+</div>
+<p><i>Derechos reservados &copy; 2021@EUGENIO VERA GÓMEZ</i></p>
+</footer>
+</div>
+<!-- ENLACE JAVA -->
+<script src="./java proyecto final/JAVA PRINCIPAL TENIS.js"></script> <!-- JS -->
+
+<!-- script java -->
+<script src="./java proyecto final/JAVA BOOTSTRAP SLIDER.js"></script>
+
+<!-- scrip de bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
